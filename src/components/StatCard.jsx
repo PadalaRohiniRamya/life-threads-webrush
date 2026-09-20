@@ -1,0 +1,1 @@
+import Icon from"./Icon";export default function StatCard({icon,value,label,sub}){return <article className="stat"><div className="stat-icon" aria-hidden="true"><Icon name={icon} size={20}/></div><div><strong>{value}</strong><span>{label}</span>{sub&&<small>{sub}</small>}</div></article>}
